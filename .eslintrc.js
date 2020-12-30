@@ -23,10 +23,10 @@ module.exports = {
 			'single'
 		],
 		// 分号
-		// 'semi': [ 
-		// 	'error',
-		// 	'always'
-		// ],
+		'semi': [ 
+			'error',
+			'nerver'
+		],
 		'block-spacing': [0], // 如果代码块是单行的时候，代码块内部前后需要留一个空格[2,"always"],
 		'no-mixed-operators':0, // 运算符的eslint：不要&& ||混着写
 		'vue/no-unused-components':0,//引用组建不使用就会报错
@@ -51,7 +51,7 @@ module.exports = {
 		'generator-star-spacing':'off', // generator函数中星号两边的空白。
 		'perfer-promise-reject-errors':['off',{
 			allowEmptyReject: true
-		}],
+		}],	  
 		// 开发模式允许使用console
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		// 开发环境允许使用调试 (生产模式禁用)
