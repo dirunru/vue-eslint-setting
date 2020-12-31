@@ -1,0 +1,4 @@
+/dist
+node_modules
+/public/
+// /src/common/utils/convertPinyin.js
